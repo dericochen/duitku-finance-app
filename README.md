@@ -72,15 +72,3 @@ Identitas visual dipusatkan di `presentation/theme/` sehingga seluruh layar kons
 
 **Prinsip**: kanvas cream (bukan putih generik), navy sebagai jangkar, lime untuk aksi penting, hierarki tipografi kuat, spasi konsisten, border tipis, bayangan ditahan, dan rounding selektif (kartu saldo 24–28dp, tombol 16–18dp, input 14–16dp, wadah ikon 14–16dp). Mode gelap memakai kanvas navy.
 
-**Token** didefinisikan di:
-
-- `theme/Color.kt` — palet Neo Finance.
-- `theme/Theme.kt` — `ColorScheme` terang/gelap + `ExtendedColors` (accent, income, expense, navy, dll.).
-- `theme/Type.kt` — hierarki tipografi + bentuk (`Shapes`).
-- `theme/Dimens.kt` — skala spasi, radius komponen, elevasi, dan target sentuh minimum 48dp.
-
-Komponen bersama (`components/`): `NeoCard`, `SectionHeader`, `IconBadge` (wadah ikon kotak-membulat), `DuitKuTopBar`, `AmountKeypad`, chart (`Charts.kt`), dan `BudgetProgress` — semuanya membaca token di atas.
-
-> **Catatan**: warna dinamis (Material You) default **mati** agar identitas DuitKu tampil bawaan; pengguna tetap bisa menyalakannya dari Pengaturan.
-
-**Perbaikan bug keypad nominal** — sebelumnya keypad nominal kustom selalu dipin di bawah sementara kolom Catatan/Tag memicu keyboard sistem, sehingga keduanya saling menimpa. Kini dipakai mode input eksklusif: keypad kustom hanya tampil saat "mode nominal" aktif dan otomatis disembunyikan begitu kolom teks mendapat fokus (`onFocusChanged`); mengetuk panel nominal menutup keyboard sistem. Keduanya tidak pernah muncul bersamaan.
