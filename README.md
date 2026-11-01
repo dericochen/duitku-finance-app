@@ -1,4 +1,4 @@
-# DuitKu
+# DuitKu (Data aman,Pengeluaran terkontrol,Hidup pun tentram)
 
 Pencatat keuangan pribadi native Android (Kotlin, Jetpack Compose, Material 3, Room, Hilt). Offline-first, tanpa izin INTERNET,privacy aman,data aman.
 Antarmuka berbahasa Indonesia, mata uang bawaan Rupiah ("Rp.XXX"), locale id-ID.
