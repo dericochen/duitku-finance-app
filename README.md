@@ -1,7 +1,7 @@
 # DuitKu
 
-Pencatat keuangan pribadi native Android (Kotlin, Jetpack Compose, Material 3, Room, Hilt). Offline-first, tanpa izin INTERNET.
-Antarmuka berbahasa Indonesia, mata uang bawaan Rupiah ("Rp 1.250.000"), locale id-ID.
+Pencatat keuangan pribadi native Android (Kotlin, Jetpack Compose, Material 3, Room, Hilt). Offline-first, tanpa izin INTERNET,privacy aman,data aman.
+Antarmuka berbahasa Indonesia, mata uang bawaan Rupiah ("Rp.XXX"), locale id-ID.
 
 Identitas visual **Neo Finance**: kanvas cream, jangkar navy gelap, aksen lime — premium, minimal, dan rapi (lihat [Desain visual](#desain-visual-neo-finance)).
 
