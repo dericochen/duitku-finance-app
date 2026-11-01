@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Dompet sederhana dengan koin; area aman adaptive icon = lingkaran 66dp di tengah kanvas 108dp. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M30,40 L78,40 Q84,40 84,46 L84,72 Q84,78 78,78 L30,78 Q24,78 24,72 L24,46 Q24,40 30,40 Z" />
+    <path
+        android:fillColor="#FF0B6B4F"
+        android:pathData="M62,54 L84,54 L84,66 L62,66 Q56,66 56,60 Q56,54 62,54 Z" />
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M64,60 m-3,0 a3,3 0 1,0 6,0 a3,3 0 1,0 -6,0" />
+    <path
+        android:fillColor="#FFFFC857"
+        android:pathData="M54,30 m-9,0 a9,9 0 1,0 18,0 a9,9 0 1,0 -18,0" />
+</vector>

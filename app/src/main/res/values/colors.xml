@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Latar jendela awal = kanvas cream Neo Finance (hindari kilatan warna berbeda saat start). -->
+    <color name="window_background">#FFF5F3EC</color>
+    <!-- Latar ikon peluncur = navy merek DuitKu. -->
+    <color name="ic_launcher_background">#FF172A3D</color>
+</resources>

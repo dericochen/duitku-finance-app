@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <!-- PDF/CSV/XLSX hasil ekspor disimpan di filesDir/exports agar bisa dibuka ulang dari Riwayat Ekspor. -->
+    <files-path name="exports" path="exports/" />
+    <cache-path name="share_cache" path="share/" />
+</paths>
